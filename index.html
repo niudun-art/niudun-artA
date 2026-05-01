@@ -7,20 +7,21 @@
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; }
-    nav { background: #e60023; padding: 1rem 2rem; display: flex; gap: 2rem; }
+    /* 柔和红色 替换原来的刺眼红 */
+    nav { background: #c8102e; padding: 1rem 2rem; display: flex; gap: 2rem; }
     nav a { color: white; text-decoration: none; font-weight: 500; }
     nav a:hover { text-decoration: underline; }
     .container { max-width: 960px; margin: 2rem auto; padding: 0 1rem; }
     .hero { background: #f9f9f9; padding: 3rem 1rem; text-align: center; border-radius: 8px; margin-bottom: 2rem; }
     .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
     .hero p { font-size: 1.2rem; color: #555; max-width: 600px; margin: 0 auto 1.5rem; }
-    .btn { display: inline-block; background: #e60023; color: white; padding: 0.75rem 2rem; border-radius: 4px; text-decoration: none; font-weight: bold; }
+    .btn { display: inline-block; background: #c8102e; color: white; padding: 0.75rem 2rem; border-radius: 4px; text-decoration: none; font-weight: bold; }
     .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 3rem; }
     .feature { background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 1.5rem; }
     .feature h3 { margin-bottom: 0.5rem; }
     .api-usage { background: #f0f8ff; padding: 2rem; border-radius: 8px; margin-bottom: 2rem; }
     footer { background: #f1f1f1; text-align: center; padding: 2rem; margin-top: 3rem; font-size: 0.9rem; color: #666; }
-    footer a { color: #e60023; }
+    footer a { color: #c8102e; }
     .product-showcase h2 { text-align: center; margin-bottom: 2rem; font-size: 2rem; }
     .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 2rem; }
     .product-card { border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; }
@@ -28,7 +29,7 @@
     .product-info { padding: 1.5rem; }
     .product-info h3 { margin-bottom: 0.5rem; }
     .product-info p { color: #555; margin-bottom: 1rem; }
-    .small-btn { display: inline-block; background: #e60023; color: white; padding: 0.5rem 1.5rem; border-radius: 4px; text-decoration: none; font-weight: bold; }
+    .small-btn { display: inline-block; background: #c8102e; color: white; padding: 0.5rem 1.5rem; border-radius: 4px; text-decoration: none; font-weight: bold; }
   </style>
 </head>
 <body>
@@ -59,12 +60,11 @@
       </div>
     </section>
 
-    <!-- 产品展示板块（适配你的3张花卉图） -->
     <section class="product-showcase">
       <h2>Our Art Prints Collection</h2>
       <div class="product-grid">
         <div class="product-card">
-          <img src="flower-art-1.jpg" alt="Niudun Vintage Floral Art Print 1">
+          <img src="flower-art-1.png" alt="Niudun Vintage Floral Art Print 1">
           <div class="product-info">
             <h3>Vintage Soft Floral Wall Art</h3>
             <p>Elegant muted green floral design, perfect for living room or bedroom decor.</p>
@@ -72,7 +72,7 @@
           </div>
         </div>
         <div class="product-card">
-          <img src="flower-art-2.jpg" alt="Niudun Muted Floral Art Print 2">
+          <img src="flower-art-2.png" alt="Niudun Muted Floral Art Print 2">
           <div class="product-info">
             <h3>Muted Green Floral Art Print</h3>
             <p>High-definition vintage floral design, printable digital download for instant home decoration.</p>
@@ -80,7 +80,7 @@
           </div>
         </div>
         <div class="product-card">
-          <img src="flower-art-3.jpg" alt="Niudun Modern Floral Art Print 3">
+          <img src="flower-art-3.png" alt="Niudun Modern Floral Art Print 3">
           <div class="product-info">
             <h3>Modern Soft Pastel Floral Print</h3>
             <p>Minimalist floral design in soft pastels, ideal for modern home interiors.</p>
